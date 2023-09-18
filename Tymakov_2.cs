@@ -59,13 +59,12 @@ namespace Tymakov_2
             Console.Write("Д.з 2.2:");
             Console.WriteLine("Решить квадратное уравнение");
             // Тумаков дз 2.2
-            double a, b, c;
-            double d, x1, x2;
-            Console.Write("Введите коэфицент а:");
+            double a, b, c, d, x1, x2;
+            Console.WriteLine("Введите коэфицент а:");
             a = Double.Parse(Console.ReadLine());
-            Console.Write("Введите коэфицент b:");
+            Console.WriteLine("Введите коэфицент b:");
             b = Double.Parse(Console.ReadLine()); 
-            Console.Write("Введите коэфицент c:"); 
+            Console.WriteLine("Введите коэфицент c:"); 
             c = Double.Parse(Console.ReadLine());
             d = b * b - 4 * a * c;
             if (d >= 0)
@@ -79,7 +78,6 @@ namespace Tymakov_2
             {
                 Console.WriteLine("нет решения");
             }
-
             Console.ReadKey();
         }
     }
