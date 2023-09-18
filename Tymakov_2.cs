@@ -23,9 +23,9 @@ namespace Tymakov_2
             Console.Write("Упр 2.2:");
             Console.WriteLine("Деление одного числа на другое");
             Console.WriteLine("Введите целое число");
-            double num1 = double.Parse(Console.ReadLine());
+            double num1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите второе целое число");
-            double num2 = double.Parse(Console.ReadLine());
+            double num2 = Convert.ToDouble(Console.ReadLine());
             if (num2 == 0)
             {
                 Console.WriteLine("Делить на 0 нельзя");
@@ -61,11 +61,11 @@ namespace Tymakov_2
             // Тумаков дз 2.2
             double a, b, c, d, x1, x2;
             Console.WriteLine("Введите коэфицент а:");
-            a = Double.Parse(Console.ReadLine());
+            a = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите коэфицент b:");
-            b = Double.Parse(Console.ReadLine()); 
+            b = Convert.ToDouble(Console.ReadLine()); 
             Console.WriteLine("Введите коэфицент c:"); 
-            c = Double.Parse(Console.ReadLine());
+            c = Convert.ToDouble(Console.ReadLine());
             d = b * b - 4 * a * c;
             if (d >= 0)
             {
