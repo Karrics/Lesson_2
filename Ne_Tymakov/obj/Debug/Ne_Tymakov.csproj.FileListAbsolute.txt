@@ -1,0 +1,7 @@
+D:\Distrib\Adel\Прога\Ne_Tymakov\bin\Debug\Ne_Tymakov.exe.config
+D:\Distrib\Adel\Прога\Ne_Tymakov\bin\Debug\Ne_Tymakov.exe
+D:\Distrib\Adel\Прога\Ne_Tymakov\bin\Debug\Ne_Tymakov.pdb
+D:\Distrib\Adel\Прога\Ne_Tymakov\obj\Debug\Ne_Tymakov.csproj.AssemblyReference.cache
+D:\Distrib\Adel\Прога\Ne_Tymakov\obj\Debug\Ne_Tymakov.csproj.CoreCompileInputs.cache
+D:\Distrib\Adel\Прога\Ne_Tymakov\obj\Debug\Ne_Tymakov.exe
+D:\Distrib\Adel\Прога\Ne_Tymakov\obj\Debug\Ne_Tymakov.pdb
