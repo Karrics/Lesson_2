@@ -98,16 +98,66 @@ namespace Ne_Tymakov
 
 
             // Упр6
-            Console.Write("Упр 6");
-            Console.WriteLine("");
-
+            Console.WriteLine("Упр 6");
+            Console.WriteLine("Разговор ГП с Томом Реддлом");
+            Console.WriteLine("Как вас зовут?");
+            string Name = Console.ReadLine();
+            Console.WriteLine("Поздоровайтесь с Томом Реддлом и задайте ему вопросы, может быть он что-то расскажет");
+            Console.ReadLine();
+            Console.WriteLine($"Привет, {Name}");
+            Console.ReadLine();
+            Console.WriteLine("Да");
+            Console.ReadLine();
+            Console.WriteLine("Нет");
+            Thread.Sleep(5000);
+            Random random = new Random();
+            int I = random.Next(0, 16);
+            Console.BackgroundColor = (ConsoleColor)I;
+            Console.WriteLine("Но могу показать");
+            Console.BackgroundColor = ConsoleColor.Black;
             Console.WriteLine();
 
 
             // Упр7
-            Console.Write("Упр 7");
-            Console.WriteLine("");
+            Console.WriteLine("Упр 7");
+            Console.WriteLine("Найти контрольную цифру штрихкода");
+            Console.WriteLine("1)");
 
+            int sum_1 = 0;
+            int sum_2 = 0;
+            Console.WriteLine("Случайное двенадцатизначное число");
+            for (int m = 1; m <= 12; m += 1)
+            {
+                if (m % 2 == 0)
+                {
+                    sum_1 += random.Next(0, 9);
+                }
+                else
+                {
+                    sum_2 += random.Next(0, 9);
+                }
+            }
+            int ans_1 = 10 - ((sum_1 * 3 + sum_2) % 10);
+            Console.WriteLine(ans_1);
+            Console.WriteLine();
+
+            Console.WriteLine("2)");
+            int sum_3 = 0;
+            int sum_4 = 0;
+            Console.WriteLine("Введите двенадцатизначное чсило по одной цифре в строке");
+            for (int m = 1; m <= 12; m += 1)
+            {
+                if (m % 2 == 0)
+                {
+                    sum_3 += Convert.ToInt32(Console.ReadLine());
+                }
+                else 
+                {
+                    sum_4 += Convert.ToInt32(Console.ReadLine());
+                }
+            }
+            int ans_2 = 10 - ((sum_3 * 3 + sum_4) % 10);
+            Console.WriteLine(ans_2);
             Console.WriteLine();
 
 

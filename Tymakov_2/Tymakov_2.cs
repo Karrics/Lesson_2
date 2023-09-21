@@ -70,14 +70,12 @@ namespace Tymakov_2
             if (d < 0)
             {
                 Console.WriteLine("Нет корней");
-                // System.Environment.Exit(0);
             }
             else if (d == 0)
             {
                 Console.WriteLine("Корень уравнения: {0}", x1);
             }
             else
-
             {
                 Console.WriteLine("Корни уравнения: {0} , {1}", x1, x2);
             }
